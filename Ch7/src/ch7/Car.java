@@ -2,7 +2,7 @@ package ch7;
 
 public class Car {
 	
-	double speed = 0.0;
+	double speed = 1;
 	double position = 0.0;
 	
 	
