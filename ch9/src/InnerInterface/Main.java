@@ -7,9 +7,16 @@ public class Main {
 		
 		Button b = new Button();
 		
-		Call c = new Call();
+		//Call c = new Call();
 		
-		b.SetOnClickKistener(c);
+		b.SetOnClickKistener(new Button.OnClickKistener() {
+			
+			@Override
+			public void onClick() {
+				// TODO Auto-generated method stub
+				System.out.println("Make a call.");
+			}
+		});
 		b.touch();
 		
 		Message m = new Message();
